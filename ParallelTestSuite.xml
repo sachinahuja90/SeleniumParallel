@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel - RegressionSuite" parallel="tests">
+
+	<listeners>
+		<listener
+			class-name="com.nag.nagp.testListeners.TestListener" />
+	</listeners>
+
+
+
+	<test name="Test Application - Chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class
+				name="com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage" />
+		</classes>
+	</test>
+
+	<test name="Test Application - Firefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class
+				name="com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage" />
+		</classes>
+	</test>
+ 
+</suite> <!-- Suite -->

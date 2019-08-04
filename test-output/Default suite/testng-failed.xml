@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage">
+        <methods>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="BeforeTest"/>
+          <include name="Test_Validate_BusesSameSourceDestination"/>
+          <include name="beforeSuite"/>
+          <include name="initializeRestClient"/>
+        </methods>
+      </class> <!-- com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

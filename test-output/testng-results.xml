@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel - RegressionSuite" duration-ms="18172" started-at="2019-08-04T09:42:46Z" finished-at="2019-08-04T09:43:04Z">
+    <groups>
+    </groups>
+    <test name="Test Application - Chrome" duration-ms="15576" started-at="2019-08-04T09:42:46Z" finished-at="2019-08-04T09:43:02Z">
+      <class name="com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@37374a5e]" name="beforeTest" is-config="true" duration-ms="2960" started-at="2019-08-04T09:42:46Z" finished-at="2019-08-04T09:42:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@37374a5e]" name="initializeRestClient" is-config="true" duration-ms="2656" started-at="2019-08-04T09:42:49Z" finished-at="2019-08-04T09:42:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage.Test_Validate_BusTicket_Fields() throws com.nag.nagp.customException.ElementNotFound,com.nag.nagp.customException.ElementNotClickable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Test_Validate_BusTicket_Fields status=SUCCESS method=Test_Redbus_BusTicket_BookingPage.Test_Validate_BusTicket_Fields()[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@37374a5e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="Test_Validate_BusTicket_Fields()[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@37374a5e]" name="Test_Validate_BusTicket_Fields" duration-ms="1534" started-at="2019-08-04T09:42:52Z" description="Validate the fields on Redbus bus ticket page." finished-at="2019-08-04T09:42:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Validate_BusTicket_Fields -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@37374a5e]" name="getResult" is-config="true" duration-ms="3" started-at="2019-08-04T09:42:53Z" finished-at="2019-08-04T09:42:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Validate_BusTicket_Fields status=SUCCESS method=Test_Redbus_BusTicket_BookingPage.Test_Validate_BusTicket_Fields()[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@37374a5e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@37374a5e]" name="initializeRestClient" is-config="true" duration-ms="696" started-at="2019-08-04T09:42:53Z" finished-at="2019-08-04T09:42:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage.Test_Validate_BusesSameSourceDestination() throws com.nag.nagp.customException.ElementNotFound,com.nag.nagp.customException.ElementNotClickable,java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Test_Validate_BusesSameSourceDestination status=SUCCESS method=Test_Redbus_BusTicket_BookingPage.Test_Validate_BusesSameSourceDestination()[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@37374a5e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="Test_Validate_BusesSameSourceDestination()[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@37374a5e]" name="Test_Validate_BusesSameSourceDestination" duration-ms="6731" started-at="2019-08-04T09:42:54Z" description="Validate the number of buses when Source and Destination are same." finished-at="2019-08-04T09:43:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Validate_BusesSameSourceDestination -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@37374a5e]" name="getResult" is-config="true" duration-ms="1" started-at="2019-08-04T09:43:01Z" finished-at="2019-08-04T09:43:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Validate_BusesSameSourceDestination status=SUCCESS method=Test_Redbus_BusTicket_BookingPage.Test_Validate_BusesSameSourceDestination()[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@37374a5e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown(java.lang.String)[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@37374a5e]" name="tearDown" is-config="true" duration-ms="976" started-at="2019-08-04T09:43:01Z" finished-at="2019-08-04T09:43:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage -->
+    </test> <!-- Test Application - Chrome -->
+    <test name="Test Application - Firefox" duration-ms="18172" started-at="2019-08-04T09:42:46Z" finished-at="2019-08-04T09:43:04Z">
+      <class name="com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@12c8a2c0]" name="beforeSuite" is-config="true" duration-ms="102" started-at="2019-08-04T09:42:46Z" finished-at="2019-08-04T09:42:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@12c8a2c0]" name="beforeTest" is-config="true" duration-ms="4122" started-at="2019-08-04T09:42:46Z" finished-at="2019-08-04T09:42:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@12c8a2c0]" name="initializeRestClient" is-config="true" duration-ms="3319" started-at="2019-08-04T09:42:50Z" finished-at="2019-08-04T09:42:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage.Test_Validate_BusTicket_Fields() throws com.nag.nagp.customException.ElementNotFound,com.nag.nagp.customException.ElementNotClickable]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Test_Validate_BusTicket_Fields status=SUCCESS method=Test_Redbus_BusTicket_BookingPage.Test_Validate_BusTicket_Fields()[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@12c8a2c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="Test_Validate_BusTicket_Fields()[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@12c8a2c0]" name="Test_Validate_BusTicket_Fields" duration-ms="1382" started-at="2019-08-04T09:42:54Z" description="Validate the fields on Redbus bus ticket page." finished-at="2019-08-04T09:42:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Validate_BusTicket_Fields -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@12c8a2c0]" name="getResult" is-config="true" duration-ms="1" started-at="2019-08-04T09:42:55Z" finished-at="2019-08-04T09:42:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Validate_BusTicket_Fields status=SUCCESS method=Test_Redbus_BusTicket_BookingPage.Test_Validate_BusTicket_Fields()[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@12c8a2c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="initializeRestClient(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@12c8a2c0]" name="initializeRestClient" is-config="true" duration-ms="1045" started-at="2019-08-04T09:42:55Z" finished-at="2019-08-04T09:42:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage.Test_Validate_BusesSameSourceDestination() throws com.nag.nagp.customException.ElementNotFound,com.nag.nagp.customException.ElementNotClickable,java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Test_Validate_BusesSameSourceDestination status=SUCCESS method=Test_Redbus_BusTicket_BookingPage.Test_Validate_BusesSameSourceDestination()[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@12c8a2c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeRestClient -->
+        <test-method status="PASS" signature="Test_Validate_BusesSameSourceDestination()[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@12c8a2c0]" name="Test_Validate_BusesSameSourceDestination" duration-ms="7308" started-at="2019-08-04T09:42:56Z" description="Validate the number of buses when Source and Destination are same." finished-at="2019-08-04T09:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Validate_BusesSameSourceDestination -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@12c8a2c0]" name="getResult" is-config="true" duration-ms="0" started-at="2019-08-04T09:43:03Z" finished-at="2019-08-04T09:43:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Validate_BusesSameSourceDestination status=SUCCESS method=Test_Redbus_BusTicket_BookingPage.Test_Validate_BusesSameSourceDestination()[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@12c8a2c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown(java.lang.String)[pri:0, instance:com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage@12c8a2c0]" name="tearDown" is-config="true" duration-ms="988" started-at="2019-08-04T09:43:03Z" finished-at="2019-08-04T09:43:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nag.nagp.testcases.Test_Redbus_BusTicket_BookingPage -->
+    </test> <!-- Test Application - Firefox -->
+  </suite> <!-- Parallel - RegressionSuite -->
+</testng-results>
